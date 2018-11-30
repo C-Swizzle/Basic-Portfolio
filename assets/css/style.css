@@ -59,20 +59,33 @@ footer {
 
 }
 
-.header-main {
+/*.header-main {
     color: white;
     width: 960px;
     margin: 0 auto;
     background-color: white;
+    float: left;
 
-}
+} */
 
 header {
     background-color: #ffffff;
-    border-color: #cccccc;
+    border-color: black;
     margin: 0 0;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-bottom: 2px solid #777777;
 
+
+}
+
+.head-contain {
+    width: 960px;
+    margin: 0 auto;
+    float: left;
+}
+.container {
+    width: 960px;
+    margin: 0 auto;
 
 }
