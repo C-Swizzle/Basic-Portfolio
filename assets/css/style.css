@@ -7,7 +7,7 @@ p, a, ul, ol {
 }
 
 body {
-    background-image: url("assets/images/diagonal-sqaures.png");
+    background-image: url("../images/diagonal-squares.png");
 }
 header {
     background-color: #ffffff;
@@ -22,5 +22,5 @@ footer {
 .main {
     background-color: #ffffff;
     border-color: #dddddd;
-    
+
 }
