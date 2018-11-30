@@ -110,6 +110,22 @@ ul {
 
 .text {
     color: #4aaaa5;
+    border-bottom: 3px solid #777777;
+    margin-right: 20px;
+    margin-left: 20px;
 
 }
 
+#me {
+    float: left;
+    width: 30%;
+    margin-left: 20px;
+    margin-top: 45px;
+    margin-right: 20px;
+
+}
+.para {
+    margin-left: 20px;
+    margin-top: 45px;
+    font-size: 30px;
+}
