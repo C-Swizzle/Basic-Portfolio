@@ -1,18 +1,22 @@
-h1, h2, h3, h4, h5, h6 {
+h2, h3, h4, h5, h6 {
     font-family: 'Georgia', Times, serif;
     padding: 20px;
     color: #4aaaa5;
 }
-
+h1 {
+    font-family: 'Georgia', Times, serif;
+    padding: 20px;
+}
 p, a, ul, ol {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
-    padding: 15px;
+
 }
 
 body {
     background-image: url("../images/diagonal-squares.png");
-}
+    width: 100%;
+    margin: auto;
 
 header {
     margin: 0 auto;
@@ -22,8 +26,11 @@ header {
     border-bottom-width: thin;
 }
 
+
+
 footer {
     background-color: #666666;
+    position: fixed;
 }
 
 .main {
@@ -37,17 +44,53 @@ footer {
     border-top: 8px solid #4aaaa5;
 }
 
-img {
-    padding: 15px;
+
+
+/*.back {
+    background-color: #4aaaa5;
+    text-align: left;
+    float: left; 
+    color: white;
+    width: 30%;
+    padding-right: 15px;
+    margin-left: auto;
+    width: 15%;
+}*/
+
+
+
+
+.header1 {
+    background-color: #ffffff;
+    border-bottom: 2px solid #777777;
+    width: 100%;
+
 }
 
-.back {
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+
+}
+
+.name {
     background-color: #4aaaa5;
+    /*float: left;*/
     color: white;
     padding-right: 10px;
     padding-bottom: 8px;
 
 }
-.header-right {
+.link {
     float: right;
+}
+
+li {
+    float: left;
+    margin-left: 15px;
+
+}
+ul {
+    list-style: none;
 }
