@@ -9,3 +9,18 @@ p, a, ul, ol {
 body {
     background-image: url("assets/images/diagonal-sqaures.png");
 }
+header {
+    background-color: #ffffff;
+    border-color: #cccccc;
+}
+
+footer {
+    background-color: #666666;
+
+}
+
+.main {
+    background-color: #ffffff;
+    border-color: #dddddd;
+    
+}
