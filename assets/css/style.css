@@ -29,9 +29,10 @@ footer {
 
 .main {
     background-color: #ffffff;
-    border-color: #dddddd;
+    border: 1px solid #777777;
     width: 960px;
-    margin: 0 0;
+    margin: 100px 0;
+
 }
 
 footer {
@@ -81,6 +82,10 @@ footer {
 li {
     float: left;
     margin-left: 15px;
+    padding-top: 35px;
+    font-size: 22px;
+
+
 
 }
 ul {
@@ -94,6 +99,7 @@ ul {
     top: 0;
     position: fixed;
 
+
 }
 
 .name1 {
@@ -101,3 +107,9 @@ ul {
     background-color: #4aaaa5;
     float: left;
 }
+
+.text {
+    color: #4aaaa5;
+
+}
+
