@@ -15,8 +15,11 @@ body {
 }
 
 header {
+    margin: 0 auto;
     background-color: #ffffff;
     border-color: #cccccc;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
 }
 
 footer {
@@ -41,5 +44,10 @@ img {
 .back {
     background-color: #4aaaa5;
     color: white;
+    padding-right: 10px;
+    padding-bottom: 8px;
 
+}
+.header-right {
+    float: right;
 }
