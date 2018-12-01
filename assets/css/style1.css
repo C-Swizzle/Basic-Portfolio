@@ -6,3 +6,27 @@
     width: 960px;
     margin: 0 auto;  
 }
+.main-try {
+    background-color: white;
+    width: 100%;
+    top: 0;
+    overflow: hidden;
+}
+.name1 {
+    color: white;
+    background-color: #4aaaa5;
+    float: left;
+    text-align: center;
+}
+h1 {
+    font-family: 'Georgia', Times, serif;
+    padding: 20px;
+}
+li {
+    list-style: none;
+}
+body {
+    background-image: url("../images/diagonal-squares.png");
+    width: 100%;
+    margin: auto;
+}
