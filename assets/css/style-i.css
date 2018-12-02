@@ -3,15 +3,14 @@ body {
 }
 .header {
     background-color: #ffffff;
-    border-color: #cccccc;
     width: 100%;
-    overflow: hidden;
+    overflow: auto;
     position: absolute;
     top: 0;
     right: 0;
     left: 0;
-    clear: both;
-
+    clear: both; 
+    border-bottom: #cccccc 2px solid;
 }
 .center {
     margin: 0 auto;
@@ -22,8 +21,6 @@ body {
     color: white;
     padding: 20px;
     float: left;
-
-
 }
 
 .links {
@@ -40,5 +37,10 @@ li {
 }
 .main-body {
     background-color: #ffffff;
+    margin: 200px auto;
+        width: 960px;
+    clear: both;
+}
+.about {
 
 }
