@@ -10,13 +10,13 @@ h1 {
 p, a, ul, ol {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
-
 }
 
 body {
     background-image: url("../images/diagonal-squares.png");
     width: 100%;
     margin: auto;
+<<<<<<< HEAD
 
 header {
     margin: 0 auto;
@@ -24,6 +24,8 @@ header {
     border-color: #cccccc;
     border-bottom-style: solid;
     border-bottom-width: thin;
+=======
+>>>>>>> 6d6cbd5188092e437f68b5baef6e60b1e3614ccf
 }
 
 
@@ -35,9 +37,10 @@ footer {
 
 .main {
     background-color: #ffffff;
-    border-color: #dddddd;
+    border: 1px solid #777777;
     width: 960px;
-    margin: 0 auto;
+    margin: 50px 0;
+
 }
 
 footer {
@@ -89,8 +92,53 @@ footer {
 li {
     float: left;
     margin-left: 15px;
+    padding-top: 35px;
+    font-size: 22px;
+
+
 
 }
 ul {
     list-style: none;
+    margin-bottom: 10px;
+    float: right;
+}
+
+.main-try {
+    background-color: white;
+    width: 100%;
+    top: 0;
+    overflow: hidden;
+    /*position: fixed;
+    clear: both;*/
+
+
+}
+
+.name1 {
+    color: white;
+    background-color: #4aaaa5;
+    float: left;
+}
+
+.text {
+    color: #4aaaa5;
+    border-bottom: 3px solid #777777;
+    margin-right: 20px;
+    margin-left: 20px;
+
+}
+
+#me {
+    float: left;
+    width: 30%;
+    margin-left: 20px;
+    margin-top: 45px;
+    margin-right: 20px;
+
+}
+.para {
+    margin-left: 20px;
+    margin-top: 45px;
+    font-size: 30px;
 }
