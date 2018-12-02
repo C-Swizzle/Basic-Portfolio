@@ -14,7 +14,7 @@ body {
 .main-try {
     background-color: #ffffff;
     width: 100%;
-    top: 0;
+    margin-top: 0;
     overflow: hidden;
     border-bottom: #cccccc 2px solid;
 }
@@ -23,6 +23,8 @@ body {
     background-color: #4aaaa5;
     float: left;
     text-align: center;
+    margin-top: 0;
+
 }
 h1 {
     font-family: 'Georgia', Times, serif;

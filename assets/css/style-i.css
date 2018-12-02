@@ -1,0 +1,44 @@
+body {
+    background-image: url("../images/diagonal-squares.png")
+}
+.header {
+    background-color: #ffffff;
+    border-color: #cccccc;
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    clear: both;
+
+}
+.center {
+    margin: 0 auto;
+    width: 960px;
+}
+.name {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 20px;
+    float: left;
+
+
+}
+
+.links {
+    float: right;
+    
+}
+ul {
+    list-style: none;
+
+}
+li {
+    float: left;
+    margin-left: 20px;
+}
+.main-body {
+    background-color: #ffffff;
+
+}
