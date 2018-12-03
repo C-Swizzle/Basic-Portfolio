@@ -66,12 +66,12 @@ a, p {
     left: 0;
     background-color: #666666;
     border-top: #4aaaa5 solid 10px;
-    height: 10%;
+    height: 6%;
 }
 .copyright {
     text-align: center;
     color: #ffffff;
     position: absolute;
-    bottom: 1%;
+    bottom: 5%;
     width: 100%
 }
