@@ -42,20 +42,38 @@ li {
     margin: 200px auto;
     width: 960px;
     clear: both;
-   /* position: absolute;
-    top: 200px;*/
+    position: relative;
+    /* overflow: auto; */
 }
 .second-title {
     color: #4aaaa5;
-    margin: 20px;
     border-bottom: #cccccc 3px solid;
-
+    margin: 15px;
 }
 .txt {
-    margin: 10px;
+    margin: 15px;
+    /* position: absolute; */
+    /* top: 100px; */
 }
 a, p {
     text-decoration: none;
     color: #777777;
     font-size: 22px;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #666666;
+    border-top: #4aaaa5 solid 10px;
+    height: 10%;
+}
+.copyright {
+    text-align: center;
+    color: #ffffff;
+    position: absolute;
+    bottom: 0;
+    width: 100%
+
 }
