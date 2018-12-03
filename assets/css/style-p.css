@@ -114,9 +114,11 @@ a, p, form{
 
 .form {
     margin: 15px;
+    line-height: 1.5;
 }
 input {
-    width: 100%;
+    width: 905px;
+    padding: 10px;
 }
 #submit {
     width: auto;
@@ -125,4 +127,7 @@ input {
     font-family: Arial, Helvetica, sans-serif;
     padding: 12px 18px;
     border: none;
+}
+#msg {
+    min-height: 250px;
 }
