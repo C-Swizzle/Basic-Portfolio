@@ -55,7 +55,7 @@ li {
     margin: 15px;
     line-height: 1.5;
 }
-a, p {
+a, p, form{
     text-decoration: none;
     color: #777777;
     font-size: 22px;
@@ -110,4 +110,19 @@ a, p {
 }
 .row {
     clear: both;
+}
+
+.form {
+    margin: 15px;
+}
+input {
+    width: 100%;
+}
+#submit {
+    width: auto;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 12px 18px;
+    border: none;
 }
